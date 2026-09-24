@@ -2,8 +2,8 @@
   "date": "2026-09-24",
   "scope": "本地文件与档案静态检查；未调用生图工具，未进行 Agent 效果评估",
   "checks": {
-    "people_count": 9,
-    "alias_count": 59,
+    "people_count": 10,
+    "alias_count": 68,
     "names_and_aliases_unique": true,
     "all_bound": true,
     "reference_images": [
@@ -49,6 +49,11 @@
       },
       {
         "path": "assets/characters/zhan-shaoyuan/詹绍源.jpg",
+        "exists": true,
+        "sha256_matches": true
+      },
+      {
+        "path": "assets/characters/li-jianyu/黎健毓.jpg",
         "exists": true,
         "sha256_matches": true
       }

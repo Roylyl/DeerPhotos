@@ -4,14 +4,14 @@
   "claims": [
     {
       "id": "roster",
-      "quote": "随包收录 9 位成员、59 个别名和 9 张已绑定的角色参考图。",
+      "quote": "随包收录 10 位成员、68 个别名和 10 张已绑定的角色参考图。",
       "level": "implementation",
-      "reasoning": "已结合 characters.json 逐项计数并核对九张图的哈希；不推导生图效果。",
+      "reasoning": "已结合 characters.json 逐项计数并核对十张图的哈希；不推导生图效果。",
       "evidence": [
         {
           "path": "SKILL.md",
-          "excerpt": "九位成员的本名、59 个别名及九张用户提供的参考图已绑定并随 skill 保存",
-          "sha256": "8ba474fba836eee6142c762eb1860098d9b1fdf3bd6528ee8f919223862c1205"
+          "excerpt": "十位成员的本名、68 个别名及十张用户提供的参考图已绑定并随 skill 保存",
+          "sha256": "ab0b059a4f49100f6d93d41038829c6f1da00872cff949e35f3f9686a7ae14c6"
         }
       ]
     },
@@ -37,7 +37,7 @@
         {
           "path": "SKILL.md",
           "excerpt": "工具不可用时如实说明，交付可执行的提示词和所需参考图清单，不把提示词当作已经生成的照片。",
-          "sha256": "8ba474fba836eee6142c762eb1860098d9b1fdf3bd6528ee8f919223862c1205"
+          "sha256": "ab0b059a4f49100f6d93d41038829c6f1da00872cff949e35f3f9686a7ae14c6"
         }
       ]
     },
@@ -50,20 +50,20 @@
         {
           "path": "SKILL.md",
           "excerpt": "存在会影响出场名单的歧义时，只问必要的一句。",
-          "sha256": "8ba474fba836eee6142c762eb1860098d9b1fdf3bd6528ee8f919223862c1205"
+          "sha256": "ab0b059a4f49100f6d93d41038829c6f1da00872cff949e35f3f9686a7ae14c6"
         }
       ]
     },
     {
       "id": "checks",
-      "quote": "2026-09-24 的本地静态检查确认：人物数为 9、别名数为 59，本名与别名没有跨人物重复，九张参考图均存在且 SHA-256 与档案一致。",
+      "quote": "2026-09-24 的本地静态检查确认：人物数为 10、别名数为 68，本名与别名没有跨人物重复，十张参考图均存在且 SHA-256 与档案一致。",
       "level": "configuration",
       "reasoning": "本次执行计数、去重、文件存在及逐图哈希核对；范围限于静态档案。",
       "evidence": [
         {
           "path": "docs/verification.json",
           "excerpt": "\"names_and_aliases_unique\": true",
-          "sha256": "08daa59e2d9150ecf44f0802f460d01ef79183c4afa10518e3b051cb5b96825a"
+          "sha256": "40fc56ca6cf28867adabfb1f9e6c40876037f42221b824118f55e845cd368161"
         }
       ]
     },
@@ -76,7 +76,7 @@
         {
           "path": "docs/verification.json",
           "excerpt": "\"actual_scene_generation_evaluated\": false",
-          "sha256": "08daa59e2d9150ecf44f0802f460d01ef79183c4afa10518e3b051cb5b96825a"
+          "sha256": "40fc56ca6cf28867adabfb1f9e6c40876037f42221b824118f55e845cd368161"
         }
       ]
     },
@@ -102,7 +102,7 @@
         {
           "path": "SKILL.md",
           "excerpt": "优先使用可用的内置 `image_gen` 生图工具",
-          "sha256": "8ba474fba836eee6142c762eb1860098d9b1fdf3bd6528ee8f919223862c1205"
+          "sha256": "ab0b059a4f49100f6d93d41038829c6f1da00872cff949e35f3f9686a7ae14c6"
         }
       ]
     }

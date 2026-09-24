@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "identity_source": "用户在 2026-09-24 提供的本名和别名对应表",
-  "visual_status": "all_nine_bound",
+  "visual_status": "all_bound",
   "people": [
     {
       "id": "li-yanzhen",
@@ -303,6 +303,43 @@
         ],
         "default_outfit_and_props": "黑白篮球球衣和短裤，胸前 BROOKLYN 与 11，黑白运动鞋。",
         "adaptation_rule": "无服装要求时以参考为默认；用户指定服装或活动时可调整服装。手持物、香烟、背景、姿势和表情不是每张图必须出现的身份特征；眼镜与发型默认保留。"
+      }
+    },
+    {
+      "id": "li-jianyu",
+      "canonical_name": "黎健毓",
+      "aliases": [
+        "寝委书记",
+        "书记",
+        "记记",
+        "记吧",
+        "黎书记",
+        "哆啦A梦",
+        "哆啦B梦",
+        "B梦",
+        "健叔"
+      ],
+      "visual": {
+        "status": "bound",
+        "references": [
+          {
+            "path": "assets/characters/li-jianyu/黎健毓.jpg",
+            "role": "primary_identity_reference",
+            "source": "/Users/roylyl/Desktop/381376418b2dbc8753a3bc9358a6a40d.jpg",
+            "mapping_basis": "用户明确指定所附图片为黎健毓的形象，并提供本名与九个别名；已查看附件",
+            "sha256": "207c109f04130ea482136760be8a00180b5ec20d89e61362454d95bd9e127817"
+          }
+        ],
+        "appearance": "哆啦A梦风格的蓝白色圆润机器猫拟人角色：蓝色圆头与手臂、白色大脸和口鼻区、红色球形鼻子、黑色横向胡须、竖椭圆黑眼，浓密蓬松的黑色中分波浪卷发，银色细金属框大眼镜，红色颈圈配金色铃铛。白色圆手和宽圆白脚，整体矮壮圆润。",
+        "identity_invariants": [
+          "蓝白色圆脸机器猫形态、红色球形鼻子与黑色胡须",
+          "浓密蓬松黑色中分波浪卷发",
+          "银色细金属框大眼镜；不能换成其他角色的黑框眼镜",
+          "红色颈圈与金色铃铛默认保留",
+          "白色圆手、宽圆白脚和圆润体型；不能只用普通无发无眼镜的哆啦A梦替代"
+        ],
+        "default_outfit_and_props": "白色短袖 T 恤、宽松黑色长裤、黄色黑色格纹双肩背包。",
+        "adaptation_rule": "按用户要求调整服装和场景，黑卷发、银框眼镜、蓝白圆脸、红鼻与铃铛是默认识别特征。背包可依场景增减；画面中的生成平台水印不作为角色特征。"
       }
     }
   ],
