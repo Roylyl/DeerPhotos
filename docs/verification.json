@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-24",
+  "scope": "本地文件与档案静态检查；未调用生图工具，未进行 Agent 效果评估",
+  "checks": {
+    "people_count": 9,
+    "alias_count": 59,
+    "names_and_aliases_unique": true,
+    "all_bound": true,
+    "reference_images": [
+      {
+        "path": "assets/characters/li-yanzhen/李彦臻.jpg",
+        "exists": true,
+        "sha256_matches": true
+      },
+      {
+        "path": "assets/characters/luo-yulun/罗宇伦.jpg",
+        "exists": true,
+        "sha256_matches": true
+      },
+      {
+        "path": "assets/characters/peng-peng/彭鹏.jpg",
+        "exists": true,
+        "sha256_matches": true
+      },
+      {
+        "path": "assets/characters/tang-bofu/唐博釜.jpg",
+        "exists": true,
+        "sha256_matches": true
+      },
+      {
+        "path": "assets/characters/tang-yinxin/唐胤鑫.jpg",
+        "exists": true,
+        "sha256_matches": true
+      },
+      {
+        "path": "assets/characters/tu-tenghui/涂腾辉.jpg",
+        "exists": true,
+        "sha256_matches": true
+      },
+      {
+        "path": "assets/characters/wei-ziqi/魏子奇.jpg",
+        "exists": true,
+        "sha256_matches": true
+      },
+      {
+        "path": "assets/characters/xia-weicheng/夏炜城.jpg",
+        "exists": true,
+        "sha256_matches": true
+      },
+      {
+        "path": "assets/characters/zhan-shaoyuan/詹绍源.jpg",
+        "exists": true,
+        "sha256_matches": true
+      }
+    ]
+  },
+  "actual_scene_generation_evaluated": false,
+  "project_license_file_present": false,
+  "git_repository_present": false
+}

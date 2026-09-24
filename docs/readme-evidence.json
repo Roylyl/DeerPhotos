@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "project_profile": "Agent Skill",
+  "claims": [
+    {
+      "id": "roster",
+      "quote": "随包收录 9 位成员、59 个别名和 9 张已绑定的角色参考图。",
+      "level": "implementation",
+      "reasoning": "已结合 characters.json 逐项计数并核对九张图的哈希；不推导生图效果。",
+      "evidence": [
+        {
+          "path": "SKILL.md",
+          "excerpt": "九位成员的本名、59 个别名及九张用户提供的参考图已绑定并随 skill 保存",
+          "sha256": "c48b4be41e6c23131cb8f6ecfb8421298bcdcc1da64ea96c8618968d42c4b889"
+        }
+      ]
+    },
+    {
+      "id": "invocation",
+      "quote": "显示名称为“鹿图DeerPhotos”，调用标识为 `$deerphotos`。",
+      "level": "configuration",
+      "reasoning": "显示名称与调用示例来自技能 UI 元数据；SKILL.md name 同为 deerphotos。",
+      "evidence": [
+        {
+          "path": "agents/openai.yaml",
+          "excerpt": "使用 $deerphotos",
+          "sha256": "7c494830ccbc672ef018344cc2881f25ce9c61097a575a21959d65f01ee24a00"
+        }
+      ]
+    },
+    {
+      "id": "fallback",
+      "quote": "内置生图工具不可用时，技能要求说明情况并提供提示词及参考图清单，不将提示词当作已经生成的照片。",
+      "level": "implementation",
+      "reasoning": "表述为技能要求而非已运行成功。",
+      "evidence": [
+        {
+          "path": "SKILL.md",
+          "excerpt": "工具不可用时如实说明，交付可执行的提示词和所需参考图清单，不把提示词当作已经生成的照片。",
+          "sha256": "c48b4be41e6c23131cb8f6ecfb8421298bcdcc1da64ea96c8618968d42c4b889"
+        }
+      ]
+    },
+    {
+      "id": "semantics",
+      "quote": "发生影响出场名单的歧义时，技能要求先澄清。",
+      "level": "implementation",
+      "reasoning": "已读取别名、长词匹配、语境和多轮规则；示例是预期行为，不是评测记录。",
+      "evidence": [
+        {
+          "path": "SKILL.md",
+          "excerpt": "存在会影响出场名单的歧义时，只问必要的一句。",
+          "sha256": "c48b4be41e6c23131cb8f6ecfb8421298bcdcc1da64ea96c8618968d42c4b889"
+        }
+      ]
+    },
+    {
+      "id": "checks",
+      "quote": "2026-09-24 的本地静态检查确认：人物数为 9、别名数为 59，本名与别名没有跨人物重复，九张参考图均存在且 SHA-256 与档案一致。",
+      "level": "configuration",
+      "reasoning": "本次执行计数、去重、文件存在及逐图哈希核对；范围限于静态档案。",
+      "evidence": [
+        {
+          "path": "docs/verification.json",
+          "excerpt": "\"names_and_aliases_unique\": true",
+          "sha256": "04174f5fc802be6fa6073e53d4d17c811422f066a4a61c425fad7bf1d78a285e"
+        }
+      ]
+    },
+    {
+      "id": "eval-scope",
+      "quote": "尚未进行实际场景生图评估，也未验证全员群像的一致性。",
+      "level": "configuration",
+      "reasoning": "任务中未调用生图工具；不把静态检查写成效果验证。",
+      "evidence": [
+        {
+          "path": "docs/verification.json",
+          "excerpt": "\"actual_scene_generation_evaluated\": false",
+          "sha256": "04174f5fc802be6fa6073e53d4d17c811422f066a4a61c425fad7bf1d78a285e"
+        }
+      ]
+    },
+    {
+      "id": "license",
+      "quote": "本目录尚未提供项目级许可证，也未提供人物参考素材的再分发授权说明。",
+      "level": "unknown",
+      "reasoning": "检查当前文件清单无许可证与再分发授权文件；不自行赋予许可。",
+      "evidence": []
+    },
+    {
+      "id": "model",
+      "quote": "未固定底层模型版本，也未包含独立的生图客户端或 API 调用脚本。",
+      "level": "implementation",
+      "reasoning": "技能选择环境内置工具；完整文件清单无生图脚本或模型版本配置。",
+      "evidence": [
+        {
+          "path": "SKILL.md",
+          "excerpt": "优先使用可用的内置 `image_gen` 生图工具",
+          "sha256": "c48b4be41e6c23131cb8f6ecfb8421298bcdcc1da64ea96c8618968d42c4b889"
+        }
+      ]
+    }
+  ]
+}

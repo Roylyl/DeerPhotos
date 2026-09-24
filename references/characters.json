@@ -1,0 +1,310 @@
+{
+  "schema_version": 1,
+  "identity_source": "用户在 2026-09-24 提供的本名和别名对应表",
+  "visual_status": "all_nine_bound",
+  "people": [
+    {
+      "id": "li-yanzhen",
+      "canonical_name": "李彦臻",
+      "aliases": [
+        "吉吉毛毛",
+        "毛毛",
+        "李彦毛",
+        "臻哥",
+        "蒸鸽",
+        "蒸哥"
+      ],
+      "visual": {
+        "status": "bound",
+        "references": [
+          {
+            "path": "assets/characters/li-yanzhen/李彦臻.jpg",
+            "role": "primary_identity_reference",
+            "source": "/Users/roylyl/Library/CloudStorage/OneDrive-个人/其他/鹿群/形象/李彦臻.jpg",
+            "mapping_basis": "用户提供按本名命名的形象文件夹，并明确每个形象代表对应人物；已逐张查看",
+            "sha256": "93ba021325eb61521c4eacd09daa7076fe144bd8f9560cc3ce8c6411fcb3b2fe"
+          }
+        ],
+        "appearance": "灰色鸽子型拟人角色，灰色头颈、浅灰胸腹和粗壮肌肉手臂，黄橙色短喙，棕色大眼，蓬松黑色中分波浪发，棕色鸟趾脚。",
+        "identity_invariants": [
+          "灰鸽头与黄橙喙",
+          "黑色中分波浪发",
+          "明显健壮的灰色手臂",
+          "鸟趾脚；不要与彭鹏的肤色人类四肢互换"
+        ],
+        "default_outfit_and_props": "黑色紧身背心、黑色多口袋工装长裤。",
+        "adaptation_rule": "无服装要求时以参考为默认；用户指定服装或活动时可调整服装。手持物、香烟、背景、姿势和表情不是每张图必须出现的身份特征；眼镜与发型默认保留。"
+      }
+    },
+    {
+      "id": "luo-yulun",
+      "canonical_name": "罗宇伦",
+      "aliases": [
+        "企鹅",
+        "扑克",
+        "朴客",
+        "撸一撸",
+        "录一录",
+        "罗鸡巴"
+      ],
+      "visual": {
+        "status": "bound",
+        "references": [
+          {
+            "path": "assets/characters/luo-yulun/罗宇伦.jpg",
+            "role": "primary_identity_reference",
+            "source": "/Users/roylyl/Library/CloudStorage/OneDrive-个人/其他/鹿群/形象/罗宇伦.jpg",
+            "mapping_basis": "用户提供按本名命名的形象文件夹，并明确每个形象代表对应人物；已逐张查看",
+            "sha256": "7331d380bc46adc2c0d7117de0374a861bcda15e4680a646f2d23066226b42de"
+          }
+        ],
+        "appearance": "黑白企鹅型拟人角色，圆润躯干，白色脸颊和胸部、黑色鳍状手臂，黄橙喙与脚，浓密黑卷发，黑色方框眼镜，半垂眼睑。",
+        "identity_invariants": [
+          "黑白企鹅与鳍状手臂",
+          "浓密黑卷发",
+          "黑方框眼镜",
+          "黄色喙脚与圆润身形"
+        ],
+        "default_outfit_and_props": "黑白花纹短袖衬衫、红色长裤、黑色斜挎包、深色吊坠、方形智能手表；参考嘴边有香烟。",
+        "adaptation_rule": "无服装要求时以参考为默认；用户指定服装或活动时可调整服装。手持物、香烟、背景、姿势和表情不是每张图必须出现的身份特征；眼镜与发型默认保留。"
+      }
+    },
+    {
+      "id": "peng-peng",
+      "canonical_name": "彭鹏",
+      "aliases": [
+        "彭鸟",
+        "鸟鸟",
+        "鸟鸡巴",
+        "鸟别"
+      ],
+      "visual": {
+        "status": "bound",
+        "references": [
+          {
+            "path": "assets/characters/peng-peng/彭鹏.jpg",
+            "role": "primary_identity_reference",
+            "source": "/Users/roylyl/Library/CloudStorage/OneDrive-个人/其他/鹿群/形象/彭鹏.jpg",
+            "mapping_basis": "用户提供按本名命名的形象文件夹，并明确每个形象代表对应人物；已逐张查看",
+            "sha256": "6d29bbd310c2a8420575f9b9fffdb5fc77d1157ce5481b0b5bc1d1fc1f036c26"
+          }
+        ],
+        "appearance": "灰白鸟头与人类身体组合的拟人角色，黄色短喙、浅色脸颊与暖橙腮部、粗黑眉、黑色短卷发，偏精瘦运动体型，肤色手臂和腿、人类手掌。",
+        "identity_invariants": [
+          "灰白鸟脸与暖橙腮部",
+          "黑色短卷发和粗眉",
+          "精瘦肤色人类四肢",
+          "不要改成李彦臻的全灰粗壮身体或鸟脚"
+        ],
+        "default_outfit_and_props": "黑色背心、深灰运动短裤、黑白运动鞋。",
+        "adaptation_rule": "无服装要求时以参考为默认；用户指定服装或活动时可调整服装。手持物、香烟、背景、姿势和表情不是每张图必须出现的身份特征；眼镜与发型默认保留。"
+      }
+    },
+    {
+      "id": "tang-bofu",
+      "canonical_name": "唐博釜",
+      "aliases": [
+        "唐伯虎",
+        "唐白虎",
+        "虎鸡巴",
+        "虎先锋"
+      ],
+      "visual": {
+        "status": "bound",
+        "references": [
+          {
+            "path": "assets/characters/tang-bofu/唐博釜.jpg",
+            "role": "primary_identity_reference",
+            "source": "/Users/roylyl/Library/CloudStorage/OneDrive-个人/其他/鹿群/形象/唐博釜.jpg",
+            "mapping_basis": "用户提供按本名命名的形象文件夹，并明确每个形象代表对应人物；已逐张查看",
+            "sha256": "54da94bd530c153008fee1f245c84769b1d7864a90873858ab1aaf80113581f3"
+          }
+        ],
+        "appearance": "橙色黑条纹虎头虎身拟人角色，白色口鼻、脸颊和颈胸毛，圆耳、粉棕鼻，琥珀棕色眼睛，运动体型，毛茸茸的虎掌和虎脚。",
+        "identity_invariants": [
+          "橙底黑虎纹",
+          "白色口鼻颊毛",
+          "虎头圆耳与虎掌脚",
+          "即使别名叫唐白虎，也不自动变白虎"
+        ],
+        "default_outfit_and_props": "黑色背心、黑色短裤。",
+        "adaptation_rule": "无服装要求时以参考为默认；用户指定服装或活动时可调整服装。手持物、香烟、背景、姿势和表情不是每张图必须出现的身份特征；眼镜与发型默认保留。"
+      }
+    },
+    {
+      "id": "tang-yinxin",
+      "canonical_name": "唐胤鑫",
+      "aliases": [
+        "狗鸡巴",
+        "唐狗",
+        "tango",
+        "帅狗",
+        "狗别"
+      ],
+      "visual": {
+        "status": "bound",
+        "references": [
+          {
+            "path": "assets/characters/tang-yinxin/唐胤鑫.jpg",
+            "role": "primary_identity_reference",
+            "source": "/Users/roylyl/Library/CloudStorage/OneDrive-个人/其他/鹿群/形象/唐胤鑫.jpg",
+            "mapping_basis": "用户提供按本名命名的形象文件夹，并明确每个形象代表对应人物；已逐张查看",
+            "sha256": "7530782fa0c55729bcc3a9e0f4c85d5ab4796f20b684da046b7151fc4ee12674"
+          }
+        ],
+        "appearance": "黄褐色犬脸的拟人角色，黑色长垂耳，奶白口鼻、黑鼻，黑短发、粗黑眉和黑色方框眼镜，身体敦实圆润，人形手部。",
+        "identity_invariants": [
+          "黄褐犬脸与白口鼻",
+          "黑色长垂耳",
+          "黑短发、粗眉、黑框眼镜",
+          "敦实体型"
+        ],
+        "default_outfit_and_props": "黑色拉链运动外套、黑色长裤和黑鞋；手持黑色平板电脑。",
+        "adaptation_rule": "无服装要求时以参考为默认；用户指定服装或活动时可调整服装。手持物、香烟、背景、姿势和表情不是每张图必须出现的身份特征；眼镜与发型默认保留。"
+      }
+    },
+    {
+      "id": "tu-tenghui",
+      "canonical_name": "涂腾辉",
+      "aliases": [
+        "涂涂",
+        "鹿",
+        "鹿腾辉",
+        "兔爷",
+        "兔兔",
+        "涂爷",
+        "涂鸡巴",
+        "鹿鸡巴",
+        "涂别"
+      ],
+      "visual": {
+        "status": "bound",
+        "references": [
+          {
+            "path": "assets/characters/tu-tenghui/涂腾辉.jpg",
+            "role": "primary_identity_reference",
+            "source": "/Users/roylyl/Library/CloudStorage/OneDrive-个人/其他/鹿群/形象/涂腾辉.jpg",
+            "mapping_basis": "用户提供按本名命名的形象文件夹，并明确每个形象代表对应人物；已逐张查看",
+            "sha256": "b911f7fb01b093a952d8683298a48599433f6a49843c66806bbd332098163dcf"
+          }
+        ],
+        "appearance": "较写实的棕色雄鹿头与成年比例人形上身，巨大分叉鹿角、宽长鹿耳、黑眼黑鼻、浅白口鼻下方和喉部毛。参考为正面半身照。",
+        "identity_invariants": [
+          "写实鹿头与大幅分叉鹿角",
+          "棕毛、浅白喉部和宽长鹿耳",
+          "成年比例；不要强行改成其他角色的幼态大头比例",
+          "下半身在参考中不可见，不将补全细节当成固定事实"
+        ],
+        "default_outfit_and_props": "深色西装、白衬衫、黑领带，深灰背景。",
+        "adaptation_rule": "无服装要求时以参考为默认；用户指定服装或活动时可调整服装。手持物、香烟、背景、姿势和表情不是每张图必须出现的身份特征；眼镜与发型默认保留。"
+      }
+    },
+    {
+      "id": "wei-ziqi",
+      "canonical_name": "魏子奇",
+      "aliases": [
+        "魏鸡巴",
+        "拍别",
+        "魏别",
+        "维基吧",
+        "重庆别",
+        "拍鸡巴",
+        "青蛙",
+        "蛙别",
+        "鹿子奇",
+        "五子棋"
+      ],
+      "visual": {
+        "status": "bound",
+        "references": [
+          {
+            "path": "assets/characters/wei-ziqi/魏子奇.jpg",
+            "role": "primary_identity_reference",
+            "source": "/Users/roylyl/Library/CloudStorage/OneDrive-个人/其他/鹿群/形象/魏子奇.jpg",
+            "mapping_basis": "用户提供按本名命名的形象文件夹，并明确每个形象代表对应人物；已逐张查看",
+            "sha256": "7644e6e683327561da5222deea0c6082b8d96103f068f50eaf5de0809970e30f"
+          }
+        ],
+        "appearance": "浅绿色青蛙型拟人角色，宽圆蛙脸与浅色口颌，大而横向分开的眼睛，黑色顺滑中分短发，敦实粗壮身形，绿色手脚与宽蛙趾。",
+        "identity_invariants": [
+          "浅绿色宽圆蛙脸",
+          "黑色顺滑中分发",
+          "敦实粗壮绿色身体",
+          "没有龟壳，不与夏炜城互换"
+        ],
+        "default_outfit_and_props": "黑色短袖 T 恤、黑色短裤、黑色斜挎包，手持黑色相机。",
+        "adaptation_rule": "无服装要求时以参考为默认；用户指定服装或活动时可调整服装。手持物、香烟、背景、姿势和表情不是每张图必须出现的身份特征；眼镜与发型默认保留。"
+      }
+    },
+    {
+      "id": "xia-weicheng",
+      "canonical_name": "夏炜城",
+      "aliases": [
+        "龟龟",
+        "龟鸡巴",
+        "龟炜城",
+        "夏别",
+        "龟别",
+        "龟头"
+      ],
+      "visual": {
+        "status": "bound",
+        "references": [
+          {
+            "path": "assets/characters/xia-weicheng/夏炜城.jpg",
+            "role": "primary_identity_reference",
+            "source": "/Users/roylyl/Library/CloudStorage/OneDrive-个人/其他/鹿群/形象/夏炜城.jpg",
+            "mapping_basis": "用户提供按本名命名的形象文件夹，并明确每个形象代表对应人物；已逐张查看",
+            "sha256": "b5d7935a3e89d74b449ffc3095bb99271831dddb80651fb08afad52a89daaa0b"
+          }
+        ],
+        "appearance": "绿色乌龟型拟人角色，圆润龟脸、黑色蓬松中分卷发和粗眉，背后明显的大型橄榄棕色分块龟壳，绿色手掌和脚趾，身材较魏子奇修长。",
+        "identity_invariants": [
+          "大型分块龟壳属于身体",
+          "绿色龟脸与黑色蓬松卷发",
+          "较修长体型",
+          "不能把龟壳当背包去掉或变成无壳青蛙"
+        ],
+        "default_outfit_and_props": "黑色短袖衬衫配黑白格纹领口、卡其色长裤，赤足。",
+        "adaptation_rule": "无服装要求时以参考为默认；用户指定服装或活动时可调整服装。手持物、香烟、背景、姿势和表情不是每张图必须出现的身份特征；眼镜与发型默认保留。"
+      }
+    },
+    {
+      "id": "zhan-shaoyuan",
+      "canonical_name": "詹绍源",
+      "aliases": [
+        "鹿绍源",
+        "困困",
+        "水豚",
+        "困别",
+        "詹鸡巴",
+        "战绩吧",
+        "詹味",
+        "展位",
+        "水豚噜噜"
+      ],
+      "visual": {
+        "status": "bound",
+        "references": [
+          {
+            "path": "assets/characters/zhan-shaoyuan/詹绍源.jpg",
+            "role": "primary_identity_reference",
+            "source": "/Users/roylyl/Library/CloudStorage/OneDrive-个人/其他/鹿群/形象/詹绍源.jpg",
+            "mapping_basis": "用户提供按本名命名的形象文件夹，并明确每个形象代表对应人物；已逐张查看",
+            "sha256": "4fe70471fc773e0ef76a6cbe981cfbaacbe28ccdf245100a9c41d40a915b5071"
+          }
+        ],
+        "appearance": "用户指定为水豚形象的人脸与啮齿类混合拟人角色：保留参考中接近真人的眼睛和嘴部、暖棕色毛脸和小圆耳、深棕鼻及细胡须，黑色短碎发，画面左侧眼下有小痣，运动型肤色人类四肢。",
+        "identity_invariants": [
+          "保留参考独特人脸与水豚混合特征，不能替换为普通水豚头像",
+          "黑色短碎发",
+          "参考可见的眼下小痣、小圆耳和细胡须",
+          "运动型肤色人类四肢"
+        ],
+        "default_outfit_and_props": "黑白篮球球衣和短裤，胸前 BROOKLYN 与 11，黑白运动鞋。",
+        "adaptation_rule": "无服装要求时以参考为默认；用户指定服装或活动时可调整服装。手持物、香烟、背景、姿势和表情不是每张图必须出现的身份特征；眼镜与发型默认保留。"
+      }
+    }
+  ],
+  "reference_binding_date": "2026-09-24"
+}

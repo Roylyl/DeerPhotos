@@ -1,0 +1,4 @@
+interface:
+  display_name: "鹿图DeerPhotos"
+  short_description: "用固定人物参考形象记录群体生活，识别本名、昵称与口语场景指令"
+  default_prompt: "使用 $deerphotos，把我描述的生活场景生成一张保持人物形象一致的 AI 照片。"
