@@ -55,6 +55,6 @@
     ]
   },
   "actual_scene_generation_evaluated": false,
-  "project_license_file_present": false,
-  "git_repository_present": false
+  "project_license_file_present": true,
+  "git_repository_present": true
 }

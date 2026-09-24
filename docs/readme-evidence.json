@@ -11,7 +11,7 @@
         {
           "path": "SKILL.md",
           "excerpt": "九位成员的本名、59 个别名及九张用户提供的参考图已绑定并随 skill 保存",
-          "sha256": "c48b4be41e6c23131cb8f6ecfb8421298bcdcc1da64ea96c8618968d42c4b889"
+          "sha256": "8ba474fba836eee6142c762eb1860098d9b1fdf3bd6528ee8f919223862c1205"
         }
       ]
     },
@@ -37,7 +37,7 @@
         {
           "path": "SKILL.md",
           "excerpt": "工具不可用时如实说明，交付可执行的提示词和所需参考图清单，不把提示词当作已经生成的照片。",
-          "sha256": "c48b4be41e6c23131cb8f6ecfb8421298bcdcc1da64ea96c8618968d42c4b889"
+          "sha256": "8ba474fba836eee6142c762eb1860098d9b1fdf3bd6528ee8f919223862c1205"
         }
       ]
     },
@@ -50,7 +50,7 @@
         {
           "path": "SKILL.md",
           "excerpt": "存在会影响出场名单的歧义时，只问必要的一句。",
-          "sha256": "c48b4be41e6c23131cb8f6ecfb8421298bcdcc1da64ea96c8618968d42c4b889"
+          "sha256": "8ba474fba836eee6142c762eb1860098d9b1fdf3bd6528ee8f919223862c1205"
         }
       ]
     },
@@ -63,7 +63,7 @@
         {
           "path": "docs/verification.json",
           "excerpt": "\"names_and_aliases_unique\": true",
-          "sha256": "04174f5fc802be6fa6073e53d4d17c811422f066a4a61c425fad7bf1d78a285e"
+          "sha256": "08daa59e2d9150ecf44f0802f460d01ef79183c4afa10518e3b051cb5b96825a"
         }
       ]
     },
@@ -76,16 +76,22 @@
         {
           "path": "docs/verification.json",
           "excerpt": "\"actual_scene_generation_evaluated\": false",
-          "sha256": "04174f5fc802be6fa6073e53d4d17c811422f066a4a61c425fad7bf1d78a285e"
+          "sha256": "08daa59e2d9150ecf44f0802f460d01ef79183c4afa10518e3b051cb5b96825a"
         }
       ]
     },
     {
       "id": "license",
-      "quote": "本目录尚未提供项目级许可证，也未提供人物参考素材的再分发授权说明。",
-      "level": "unknown",
-      "reasoning": "检查当前文件清单无许可证与再分发授权文件；不自行赋予许可。",
-      "evidence": []
+      "quote": "本项目采用 [MIT 许可证](LICENSE)，版权所有 © 2026 Roylyl。",
+      "level": "configuration",
+      "reasoning": "用户明确指定 MIT；项目根目录已添加标准 MIT 许可文本，版权署名依据仓库 Git 用户名及远端所有者。",
+      "evidence": [
+        {
+          "path": "LICENSE",
+          "excerpt": "Copyright (c) 2026 Roylyl",
+          "sha256": "e2d9697e4368e8a323ae7948fce088d396352c8b902b9fef087af0f4d3036e07"
+        }
+      ]
     },
     {
       "id": "model",
@@ -96,7 +102,7 @@
         {
           "path": "SKILL.md",
           "excerpt": "优先使用可用的内置 `image_gen` 生图工具",
-          "sha256": "c48b4be41e6c23131cb8f6ecfb8421298bcdcc1da64ea96c8618968d42c4b889"
+          "sha256": "8ba474fba836eee6142c762eb1860098d9b1fdf3bd6528ee8f919223862c1205"
         }
       ]
     }
