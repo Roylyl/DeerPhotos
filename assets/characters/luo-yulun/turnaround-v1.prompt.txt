@@ -1,0 +1,9 @@
+Use case: identity-preserve
+Asset type: standardized 4-view full-body character turnaround reference sheet for DeerPhotos.
+Input image: primary identity reference for ONE character, 罗宇伦.
+Primary request: Re-render this exact character in FOUR different views arranged left to right in one horizontal row: exact straight FRONT view; strict 90-degree SIDE PROFILE facing the LEFT edge; strict 90-degree SIDE PROFILE facing the RIGHT edge; exact BACK view. These are four views of the SAME person, not a group scene.
+Identity: preserve the source stylized 3D black-and-white penguin, plump rounded body, white cheeks and throat, sleepy half-lidded brown eyes, short yellow-orange beak, thick black curly hair, thick black square glasses, black flipper arms (not human hands), bare yellow-orange bird feet. Keep original head-to-body ratio and rounded belly.
+Outfit: preserve the black-and-white ornate floral patterned short-sleeve buttoned shirt, red long trousers, dark shield-shaped pendant necklace and square smartwatch on character's LEFT wrist. REMOVE the cigarette, smoke, black shoulder bag and all shoulder straps. Arms and torso unobstructed. Preserve glasses, necklace and smartwatch as accessories. Keep the rear clothing conservative, same pattern and material.
+Composition: wide landscape approximately 3:2, four equal-height and equal-scale full-body views, complete hair to feet with ample white margin and gaps. Neutral upright stance, flippers slightly separated from torso. Eye-level orthographic-like camera, minimal perspective; only viewpoint rotates.
+Lighting/background: solid pure white seamless background, no gradient, no setting, soft even studio illumination, only tiny subtle contact shadows immediately under feet.
+Avoid: text, labels, captions, watermarks, grids, divider lines, smoking, bag, props, human limbs, fingers, shoes, cropping, missing feet, three-quarter angles, extra characters or inconsistent proportions.
