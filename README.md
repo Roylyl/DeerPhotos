@@ -7,7 +7,7 @@
 <p align="center">用固定角色演绎真实生活，把聚餐、旅行和日常片段留成AI照片。</p>
 
 <p align="center">
-  <a href="VERSION"><img src="https://img.shields.io/badge/version-2.0.0-333333?style=flat-square" alt="版本2.0.0"></a>
+  <a href="VERSION"><img src="https://img.shields.io/badge/version-2.1.0-333333?style=flat-square" alt="版本2.1.0"></a>
   <a href="SKILL.md"><img src="https://img.shields.io/badge/type-Agent_Skill-333333?style=flat-square" alt="类型：Agent Skill"></a>
   <a href="#快速开始"><img src="https://img.shields.io/badge/tool-image__gen-555555?style=flat-square" alt="生图工具：image_gen"></a>
   <a href="#角色参考"><img src="https://img.shields.io/badge/characters-10-555555?style=flat-square" alt="10位固定角色"></a>
@@ -29,7 +29,7 @@
 
 ## 快速开始
 
-当前版本为[2.0.0](VERSION)。需要能读取本地文件、查看图片并调用生图工具的Agent环境，以及Python3.9以上版本和可访问GitHub的网络。鹿图默认使用内置`image_gen`，技能本身不包含独立生图程序。
+当前版本为[2.1.0](VERSION)。需要能读取本地文件、查看图片并调用生图工具的Agent环境，以及可访问GitHub并下载、解压源码的能力。鹿图默认使用内置`image_gen`，技能本身不包含独立生图程序。
 
 ### 安装后调用
 
@@ -52,9 +52,9 @@ $deerphotos
 
 ### 每次运行前更新
 
-每次使用鹿图都会先检查[GitHub的main分支](https://github.com/Roylyl/DeerPhotos/tree/main)。确认本地为最新版本后才进入生图；有更新时自动下载并替换已安装的技能，保留旧副本作为备份。更新后重新读取新规则，后续改图请求也会重新检查。
+每次使用鹿图，Agent都会先访问GitHub官网检查[GitHub的main分支](https://github.com/Roylyl/DeerPhotos/tree/main)。有更新时尝试下载并替换已安装的技能，保留旧副本作为备份。更新后重新读取新规则，后续改图请求也会重新检查。
 
-网络不可用、更新失败或远端版本尚未发布时，当前任务会停止，不使用旧版继续生图。Git开发目录有未提交改动时也会停止，避免覆盖本地工作。具体检查方式和备份位置见[更新规则](references/updates.md)。
+检查或更新失败时，继续使用本地可用版本生成，并提示前往[GitHub项目](https://github.com/Roylyl/DeerPhotos)更新最新版Skill。Git开发目录有未提交改动时跳过自动更新，保留本地工作并继续生成。具体检查方式和备份位置见[更新规则](references/updates.md)。
 
 ## 主要功能
 
@@ -167,7 +167,7 @@ DeerPhotos/
 ├── SKILL.md                         # 技能入口
 ├── README.md
 ├── LICENSE
-├── scripts/ensure_latest.py         # 运行前检查并更新
+├── scripts/ensure_latest.py         # 旧版可选更新工具
 ├── agents/openai.yaml               # 名称、图标与默认调用
 ├── assets/
 │   ├── icon.jpg                     # 项目图标
@@ -176,7 +176,7 @@ DeerPhotos/
     ├── characters.json              # 人物档案与身高
     ├── instruction-variants.md      # 口语指令示例
     ├── standardized-views.md        # 多角度参考索引
-    └── updates.md                   # 强制更新规则
+    └── updates.md                   # 更新与失败回退规则
 ```
 
 生图时，场景描述与所选参考图会交给当前环境的生图工具；服务规则、费用和额度由实际工具及账户决定。所有生成场景均为AI演绎。
