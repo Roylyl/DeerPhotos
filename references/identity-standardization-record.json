@@ -1,0 +1,93 @@
+{
+  "request": "全部单张原图标准化为白底、去水印、1:1；单图各自充满画面，保持自身比例，多人生成时按参考身高安排；涂腾辉全身，身型参考彭鹏，不要太瘦。",
+  "date": "2026-10-27",
+  "version": "3.0.0",
+  "source": "AI生成",
+  "tool": "image_gen",
+  "characters": [
+    {
+      "id": "li-yanzhen",
+      "name": "李彦臻",
+      "input": "assets/characters/li-yanzhen/李彦臻.jpg",
+      "output": "assets/characters/li-yanzhen/identity-square-v1.png",
+      "prompt": "assets/characters/li-yanzhen/identity-square-v1.prompt.txt"
+    },
+    {
+      "id": "luo-yulun",
+      "name": "罗宇伦",
+      "input": "assets/characters/luo-yulun/罗宇伦.jpg",
+      "output": "assets/characters/luo-yulun/identity-square-v1.png",
+      "prompt": "assets/characters/luo-yulun/identity-square-v1.prompt.txt"
+    },
+    {
+      "id": "peng-peng",
+      "name": "彭鹏",
+      "input": "assets/characters/peng-peng/彭鹏.jpg",
+      "output": "assets/characters/peng-peng/identity-square-v1.png",
+      "prompt": "assets/characters/peng-peng/identity-square-v1.prompt.txt"
+    },
+    {
+      "id": "tang-bofu",
+      "name": "唐博釜",
+      "input": "assets/characters/tang-bofu/唐博釜.jpg",
+      "output": "assets/characters/tang-bofu/identity-square-v1.png",
+      "prompt": "assets/characters/tang-bofu/identity-square-v1.prompt.txt"
+    },
+    {
+      "id": "tang-yinxin",
+      "name": "唐胤鑫",
+      "input": "assets/characters/tang-yinxin/唐胤鑫.jpg",
+      "output": "assets/characters/tang-yinxin/identity-square-v1.png",
+      "prompt": "assets/characters/tang-yinxin/identity-square-v1.prompt.txt"
+    },
+    {
+      "id": "tu-tenghui",
+      "name": "涂腾辉",
+      "input": "assets/characters/tu-tenghui/涂腾辉.jpg",
+      "output": "assets/characters/tu-tenghui/identity-square-v1.png",
+      "prompt": "assets/characters/tu-tenghui/identity-square-v1.prompt.txt"
+    },
+    {
+      "id": "wei-ziqi",
+      "name": "魏子奇",
+      "input": "assets/characters/wei-ziqi/魏子奇.jpg",
+      "output": "assets/characters/wei-ziqi/identity-square-v1.png",
+      "prompt": "assets/characters/wei-ziqi/identity-square-v1.prompt.txt"
+    },
+    {
+      "id": "xia-weicheng",
+      "name": "夏炜城",
+      "input": "assets/characters/xia-weicheng/夏炜城.jpg",
+      "output": "assets/characters/xia-weicheng/identity-square-v1.png",
+      "prompt": "assets/characters/xia-weicheng/identity-square-v1.prompt.txt"
+    },
+    {
+      "id": "zhan-shaoyuan",
+      "name": "詹绍源",
+      "input": "assets/characters/zhan-shaoyuan/詹绍源.jpg",
+      "output": "assets/characters/zhan-shaoyuan/identity-square-v1.png",
+      "prompt": "assets/characters/zhan-shaoyuan/identity-square-v1.prompt.txt"
+    },
+    {
+      "id": "li-jianyu",
+      "name": "黎健毓",
+      "input": "assets/characters/li-jianyu/黎健毓.jpg",
+      "output": "assets/characters/li-jianyu/identity-square-v1.png",
+      "prompt": "assets/characters/li-jianyu/identity-square-v1.prompt.txt"
+    },
+    {
+      "id": "dai-er",
+      "name": "戴而",
+      "input": "assets/characters/dai-er/戴而.png",
+      "output": "assets/characters/dai-er/identity-square-v1.png",
+      "prompt": "assets/characters/dai-er/identity-square-v1.prompt.txt"
+    }
+  ],
+  "additional_changes": {
+    "character": "tu-tenghui",
+    "repair_prompt": "assets/characters/tu-tenghui/identity-square-v1.repair.prompt.txt",
+    "multiview": "assets/characters/tu-tenghui/turnaround-v2.png",
+    "prompt": "assets/characters/tu-tenghui/turnaround-v2.prompt.txt"
+  },
+  "originals_preserved": true
+}

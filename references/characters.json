@@ -12,7 +12,8 @@
         "李彦毛",
         "臻哥",
         "蒸鸽",
-        "蒸哥"
+        "蒸哥",
+        "臭毛"
       ],
       "visual": {
         "status": "bound",
@@ -42,6 +43,18 @@
             "framing": "full_body",
             "mapping_basis": "从该人物原图生成的白底全身4视图，同一角色的角度参考，不代表四个人。",
             "detail_policy": "原图中不可见的背部、侧面等细节为生成补全；脸部识别点、配件冲突优先依据原图。"
+          },
+          {
+            "path": "assets/characters/li-yanzhen/identity-square-v1.png",
+            "role": "standardized_identity_reference",
+            "source": "assets/characters/li-yanzhen/李彦臻.jpg",
+            "created_at": "2026-10-27",
+            "generation_tool": "image_gen",
+            "prompt_path": "assets/characters/li-yanzhen/identity-square-v1.prompt.txt",
+            "background": "white",
+            "aspect_ratio": "1:1",
+            "framing": "full_body",
+            "mapping_basis": "按用户要求将已绑定原图标准化为白底无水印方图，保留服装、姿势、配件与道具；原文件另行保留。"
           }
         ],
         "appearance": "灰色鸽子型拟人角色，灰色头颈、浅灰胸腹和粗壮肌肉手臂，黄橙色短喙，棕色大眼，蓬松黑色中分波浪发，棕色鸟趾脚。",
@@ -55,7 +68,8 @@
         "adaptation_rule": "无服装要求时以参考为默认；用户指定服装或活动时可调整服装。手持物、香烟、背景、姿势和表情不是每张图必须出现的身份特征；眼镜与发型默认保留。",
         "reference_height_cm": 175,
         "height_usage": "用户指定的多人场景参考身高，按脚底至头顶衡量，不含鹿角等突出附属物；不是现实身高断言。相近镜头距离和同一地面上按比例安排，远近透视另行处理。",
-        "preferred_full_body_reference": "assets/characters/li-yanzhen/turnaround-v1.png"
+        "preferred_full_body_reference": "assets/characters/li-yanzhen/turnaround-v1.png",
+        "preferred_identity_reference": "assets/characters/li-yanzhen/identity-square-v1.png"
       }
     },
     {
@@ -67,7 +81,8 @@
         "朴客",
         "撸一撸",
         "录一录",
-        "罗鸡巴"
+        "罗鸡巴",
+        "臭扑克"
       ],
       "visual": {
         "status": "bound",
@@ -98,6 +113,18 @@
             "mapping_basis": "从该人物原图生成的白底全身4视图，同一角色的角度参考，不代表四个人。",
             "detail_policy": "原图中不可见的背部、侧面等细节为生成补全；脸部识别点、配件冲突优先依据原图。",
             "detail_note": "手表在新参考板的侧面视图中未稳定呈现；是否佩戴及外观仍以原图和当次指令为准。"
+          },
+          {
+            "path": "assets/characters/luo-yulun/identity-square-v1.png",
+            "role": "standardized_identity_reference",
+            "source": "assets/characters/luo-yulun/罗宇伦.jpg",
+            "created_at": "2026-10-27",
+            "generation_tool": "image_gen",
+            "prompt_path": "assets/characters/luo-yulun/identity-square-v1.prompt.txt",
+            "background": "white",
+            "aspect_ratio": "1:1",
+            "framing": "full_body",
+            "mapping_basis": "按用户要求将已绑定原图标准化为白底无水印方图，保留服装、姿势、配件与道具；原文件另行保留。"
           }
         ],
         "appearance": "黑白企鹅型拟人角色，圆润躯干，白色脸颊和胸部、黑色鳍状手臂，黄橙喙与脚，浓密黑卷发，黑色方框眼镜，半垂眼睑。",
@@ -111,7 +138,8 @@
         "adaptation_rule": "无服装要求时以参考为默认；用户指定服装或活动时可调整服装。手持物、香烟、背景、姿势和表情不是每张图必须出现的身份特征；眼镜与发型默认保留。",
         "reference_height_cm": 175,
         "height_usage": "用户指定的多人场景参考身高，按脚底至头顶衡量，不含鹿角等突出附属物；不是现实身高断言。相近镜头距离和同一地面上按比例安排，远近透视另行处理。",
-        "preferred_full_body_reference": "assets/characters/luo-yulun/turnaround-v1.png"
+        "preferred_full_body_reference": "assets/characters/luo-yulun/turnaround-v1.png",
+        "preferred_identity_reference": "assets/characters/luo-yulun/identity-square-v1.png"
       }
     },
     {
@@ -121,7 +149,8 @@
         "彭鸟",
         "鸟鸟",
         "鸟鸡巴",
-        "鸟别"
+        "鸟别",
+        "臭鸟"
       ],
       "visual": {
         "status": "bound",
@@ -151,6 +180,18 @@
             "framing": "full_body",
             "mapping_basis": "从该人物原图生成的白底全身4视图，同一角色的角度参考，不代表四个人。",
             "detail_policy": "原图中不可见的背部、侧面等细节为生成补全；脸部识别点、配件冲突优先依据原图。"
+          },
+          {
+            "path": "assets/characters/peng-peng/identity-square-v1.png",
+            "role": "standardized_identity_reference",
+            "source": "assets/characters/peng-peng/彭鹏.jpg",
+            "created_at": "2026-10-27",
+            "generation_tool": "image_gen",
+            "prompt_path": "assets/characters/peng-peng/identity-square-v1.prompt.txt",
+            "background": "white",
+            "aspect_ratio": "1:1",
+            "framing": "full_body",
+            "mapping_basis": "按用户要求将已绑定原图标准化为白底无水印方图，保留服装、姿势、配件与道具；原文件另行保留。"
           }
         ],
         "appearance": "灰白鸟头与人类身体组合的拟人角色，黄色短喙、浅色脸颊与暖橙腮部、粗黑眉、黑色短卷发，偏精瘦运动体型，肤色手臂和腿、人类手掌。",
@@ -164,7 +205,8 @@
         "adaptation_rule": "无服装要求时以参考为默认；用户指定服装或活动时可调整服装。手持物、香烟、背景、姿势和表情不是每张图必须出现的身份特征；眼镜与发型默认保留。",
         "reference_height_cm": 175,
         "height_usage": "用户指定的多人场景参考身高，按脚底至头顶衡量，不含鹿角等突出附属物；不是现实身高断言。相近镜头距离和同一地面上按比例安排，远近透视另行处理。",
-        "preferred_full_body_reference": "assets/characters/peng-peng/turnaround-v1.png"
+        "preferred_full_body_reference": "assets/characters/peng-peng/turnaround-v1.png",
+        "preferred_identity_reference": "assets/characters/peng-peng/identity-square-v1.png"
       }
     },
     {
@@ -174,7 +216,9 @@
         "唐伯虎",
         "唐白虎",
         "虎鸡巴",
-        "虎先锋"
+        "虎先锋",
+        "臭釜",
+        "臭虎"
       ],
       "visual": {
         "status": "bound",
@@ -204,6 +248,18 @@
             "framing": "full_body",
             "mapping_basis": "从该人物原图生成的白底全身4视图，同一角色的角度参考，不代表四个人。",
             "detail_policy": "原图中不可见的背部、侧面等细节为生成补全；脸部识别点、配件冲突优先依据原图。"
+          },
+          {
+            "path": "assets/characters/tang-bofu/identity-square-v1.png",
+            "role": "standardized_identity_reference",
+            "source": "assets/characters/tang-bofu/唐博釜.jpg",
+            "created_at": "2026-10-27",
+            "generation_tool": "image_gen",
+            "prompt_path": "assets/characters/tang-bofu/identity-square-v1.prompt.txt",
+            "background": "white",
+            "aspect_ratio": "1:1",
+            "framing": "full_body",
+            "mapping_basis": "按用户要求将已绑定原图标准化为白底无水印方图，保留服装、姿势、配件与道具；原文件另行保留。"
           }
         ],
         "appearance": "橙色黑条纹虎头虎身拟人角色，白色口鼻、脸颊和颈胸毛，圆耳、粉棕鼻，琥珀棕色眼睛，运动体型，毛茸茸的虎掌和虎脚。",
@@ -217,7 +273,8 @@
         "adaptation_rule": "无服装要求时以参考为默认；用户指定服装或活动时可调整服装。手持物、香烟、背景、姿势和表情不是每张图必须出现的身份特征；眼镜与发型默认保留。",
         "reference_height_cm": 175,
         "height_usage": "用户指定的多人场景参考身高，按脚底至头顶衡量，不含鹿角等突出附属物；不是现实身高断言。相近镜头距离和同一地面上按比例安排，远近透视另行处理。",
-        "preferred_full_body_reference": "assets/characters/tang-bofu/turnaround-v1.png"
+        "preferred_full_body_reference": "assets/characters/tang-bofu/turnaround-v1.png",
+        "preferred_identity_reference": "assets/characters/tang-bofu/identity-square-v1.png"
       }
     },
     {
@@ -228,7 +285,8 @@
         "唐狗",
         "tango",
         "帅狗",
-        "狗别"
+        "狗别",
+        "臭狗"
       ],
       "visual": {
         "status": "bound",
@@ -258,6 +316,18 @@
             "framing": "full_body",
             "mapping_basis": "从该人物原图生成的白底全身4视图，同一角色的角度参考，不代表四个人。",
             "detail_policy": "原图中不可见的背部、侧面等细节为生成补全；脸部识别点、配件冲突优先依据原图。"
+          },
+          {
+            "path": "assets/characters/tang-yinxin/identity-square-v1.png",
+            "role": "standardized_identity_reference",
+            "source": "assets/characters/tang-yinxin/唐胤鑫.jpg",
+            "created_at": "2026-10-27",
+            "generation_tool": "image_gen",
+            "prompt_path": "assets/characters/tang-yinxin/identity-square-v1.prompt.txt",
+            "background": "white",
+            "aspect_ratio": "1:1",
+            "framing": "full_body",
+            "mapping_basis": "按用户要求将已绑定原图标准化为白底无水印方图，保留服装、姿势、配件与道具；原文件另行保留。"
           }
         ],
         "appearance": "黄褐色犬脸的拟人角色，黑色长垂耳，奶白口鼻、黑鼻，黑短发、粗黑眉和黑色方框眼镜，身体敦实圆润，人形手部。",
@@ -271,7 +341,8 @@
         "adaptation_rule": "无服装要求时以参考为默认；用户指定服装或活动时可调整服装。手持物、香烟、背景、姿势和表情不是每张图必须出现的身份特征；眼镜与发型默认保留。",
         "reference_height_cm": 175,
         "height_usage": "用户指定的多人场景参考身高，按脚底至头顶衡量，不含鹿角等突出附属物；不是现实身高断言。相近镜头距离和同一地面上按比例安排，远近透视另行处理。",
-        "preferred_full_body_reference": "assets/characters/tang-yinxin/turnaround-v1.png"
+        "preferred_full_body_reference": "assets/characters/tang-yinxin/turnaround-v1.png",
+        "preferred_identity_reference": "assets/characters/tang-yinxin/identity-square-v1.png"
       }
     },
     {
@@ -286,7 +357,8 @@
         "涂爷",
         "涂鸡巴",
         "鹿鸡巴",
-        "涂别"
+        "涂别",
+        "臭鹿"
       ],
       "visual": {
         "status": "bound",
@@ -299,12 +371,12 @@
             "sha256": "b911f7fb01b093a952d8683298a48599433f6a49843c66806bbd332098163dcf"
           },
           {
-            "path": "assets/characters/tu-tenghui/turnaround-v1.png",
+            "path": "assets/characters/tu-tenghui/turnaround-v2.png",
             "role": "standardized_multiview_reference",
-            "source": "assets/characters/tu-tenghui/涂腾辉.jpg",
-            "created_at": "2026-10-20",
+            "source": "assets/characters/tu-tenghui/identity-square-v1.png",
+            "created_at": "2026-10-27",
             "generation_tool": "image_gen",
-            "prompt_path": "assets/characters/tu-tenghui/turnaround-v1.prompt.txt",
+            "prompt_path": "assets/characters/tu-tenghui/turnaround-v2.prompt.txt",
             "layout": "single_row_four_views",
             "view_order": [
               "front",
@@ -315,22 +387,41 @@
             "background": "white",
             "framing": "full_body",
             "mapping_basis": "从该人物原图生成的白底全身4视图，同一角色的角度参考，不代表四个人。",
-            "detail_policy": "原图中不可见的背部、侧面等细节为生成补全；脸部识别点、配件冲突优先依据原图。"
+            "detail_policy": "按用户新指定的结实身型更新；旧版四视图保留作历史参考，不再作为当前默认。"
+          },
+          {
+            "path": "assets/characters/tu-tenghui/identity-square-v1.png",
+            "role": "standardized_identity_reference",
+            "source": [
+              "assets/characters/tu-tenghui/涂腾辉.jpg",
+              "assets/characters/tu-tenghui/turnaround-v1.png",
+              "assets/characters/peng-peng/彭鹏.jpg"
+            ],
+            "created_at": "2026-10-27",
+            "generation_tool": "image_gen",
+            "prompt_path": "assets/characters/tu-tenghui/identity-square-v1.prompt.txt",
+            "background": "white",
+            "aspect_ratio": "1:1",
+            "framing": "full_body",
+            "mapping_basis": "用户要求从半身补为全身，参考既有四视图补全西装，并以彭鹏的结实程度调整肩胸、手臂与腿部；保持鹿头与160cm设定。",
+            "repair_prompt_path": "assets/characters/tu-tenghui/identity-square-v1.repair.prompt.txt"
           }
         ],
-        "appearance": "较写实的棕色雄鹿头与成年比例人形上身，巨大分叉鹿角、宽长鹿耳、黑眼黑鼻、浅白口鼻下方和喉部毛。参考为正面半身照。",
+        "appearance": "较写实的棕色雄鹿头与成年比例人形上身，巨大分叉鹿角、宽长鹿耳、黑眼黑鼻、浅白口鼻下方和喉部毛。参考为正面半身照。 用户于2026-10-27指定身型参考彭鹏的结实程度，肩胸、手臂和腿部自然厚实，避免过瘦或高挑细长比例。",
         "identity_invariants": [
           "写实鹿头与大幅分叉鹿角",
           "棕毛、浅白喉部和宽长鹿耳",
           "成年比例；不要强行改成其他角色的幼态大头比例",
-          "下半身在参考中不可见，不将补全细节当成固定事实"
+          "下半身在参考中不可见，不将补全细节当成固定事实",
+          "保持紧凑结实的男性体型，不使用旧四视图的过瘦比例。"
         ],
         "default_outfit_and_props": "深色西装、白衬衫、黑领带，深灰背景。",
         "adaptation_rule": "无服装要求时以参考为默认；用户指定服装或活动时可调整服装。手持物、香烟、背景、姿势和表情不是每张图必须出现的身份特征；眼镜与发型默认保留。",
         "reference_height_cm": 160,
         "height_usage": "用户指定的多人场景参考身高，按脚底至头顶衡量，不含鹿角等突出附属物；不是现实身高断言。相近镜头距离和同一地面上按比例安排，远近透视另行处理。",
-        "preferred_full_body_reference": "assets/characters/tu-tenghui/turnaround-v1.png",
-        "generated_completion": "原始参考只显示半身；本次补全同色西裤、黑色皮鞋和棕色拟人手部，作为可修改的造型设定。多人图按160cm参考身高缩放整个角色，保留成年体型比例，不计鹿角。"
+        "preferred_full_body_reference": "assets/characters/tu-tenghui/turnaround-v2.png",
+        "generated_completion": "原始参考只显示半身；本次补全同色西裤、黑色皮鞋和棕色拟人手部，作为可修改的造型设定。多人图按160cm参考身高缩放整个角色，保留成年体型比例，不计鹿角。",
+        "preferred_identity_reference": "assets/characters/tu-tenghui/identity-square-v1.png"
       }
     },
     {
@@ -346,7 +437,8 @@
         "青蛙",
         "蛙别",
         "鹿子奇",
-        "五子棋"
+        "五子棋",
+        "臭蛙"
       ],
       "visual": {
         "status": "bound",
@@ -376,6 +468,18 @@
             "framing": "full_body",
             "mapping_basis": "从该人物原图生成的白底全身4视图，同一角色的角度参考，不代表四个人。",
             "detail_policy": "原图中不可见的背部、侧面等细节为生成补全；脸部识别点、配件冲突优先依据原图。"
+          },
+          {
+            "path": "assets/characters/wei-ziqi/identity-square-v1.png",
+            "role": "standardized_identity_reference",
+            "source": "assets/characters/wei-ziqi/魏子奇.jpg",
+            "created_at": "2026-10-27",
+            "generation_tool": "image_gen",
+            "prompt_path": "assets/characters/wei-ziqi/identity-square-v1.prompt.txt",
+            "background": "white",
+            "aspect_ratio": "1:1",
+            "framing": "full_body",
+            "mapping_basis": "按用户要求将已绑定原图标准化为白底无水印方图，保留服装、姿势、配件与道具；原文件另行保留。"
           }
         ],
         "appearance": "浅绿色青蛙型拟人角色，宽圆蛙脸与浅色口颌，大而横向分开的眼睛，黑色顺滑中分短发，敦实粗壮身形，绿色手脚与宽蛙趾。",
@@ -389,7 +493,8 @@
         "adaptation_rule": "无服装要求时以参考为默认；用户指定服装或活动时可调整服装。手持物、香烟、背景、姿势和表情不是每张图必须出现的身份特征；眼镜与发型默认保留。",
         "reference_height_cm": 180,
         "height_usage": "用户指定的多人场景参考身高，按脚底至头顶衡量，不含鹿角等突出附属物；不是现实身高断言。相近镜头距离和同一地面上按比例安排，远近透视另行处理。",
-        "preferred_full_body_reference": "assets/characters/wei-ziqi/turnaround-v1.png"
+        "preferred_full_body_reference": "assets/characters/wei-ziqi/turnaround-v1.png",
+        "preferred_identity_reference": "assets/characters/wei-ziqi/identity-square-v1.png"
       }
     },
     {
@@ -401,7 +506,8 @@
         "龟炜城",
         "夏别",
         "龟别",
-        "龟头"
+        "龟头",
+        "臭龟"
       ],
       "visual": {
         "status": "bound",
@@ -431,6 +537,18 @@
             "framing": "full_body",
             "mapping_basis": "从该人物原图生成的白底全身4视图，同一角色的角度参考，不代表四个人。",
             "detail_policy": "原图中不可见的背部、侧面等细节为生成补全；脸部识别点、配件冲突优先依据原图。"
+          },
+          {
+            "path": "assets/characters/xia-weicheng/identity-square-v1.png",
+            "role": "standardized_identity_reference",
+            "source": "assets/characters/xia-weicheng/夏炜城.jpg",
+            "created_at": "2026-10-27",
+            "generation_tool": "image_gen",
+            "prompt_path": "assets/characters/xia-weicheng/identity-square-v1.prompt.txt",
+            "background": "white",
+            "aspect_ratio": "1:1",
+            "framing": "full_body",
+            "mapping_basis": "按用户要求将已绑定原图标准化为白底无水印方图，保留服装、姿势、配件与道具；原文件另行保留。"
           }
         ],
         "appearance": "绿色乌龟型拟人角色，圆润龟脸、黑色蓬松中分卷发和粗眉，背后明显的大型橄榄棕色分块龟壳，绿色手掌和脚趾，身材较魏子奇修长。",
@@ -444,7 +562,8 @@
         "adaptation_rule": "无服装要求时以参考为默认；用户指定服装或活动时可调整服装。手持物、香烟、背景、姿势和表情不是每张图必须出现的身份特征；眼镜与发型默认保留。",
         "reference_height_cm": 180,
         "height_usage": "用户指定的多人场景参考身高，按脚底至头顶衡量，不含鹿角等突出附属物；不是现实身高断言。相近镜头距离和同一地面上按比例安排，远近透视另行处理。",
-        "preferred_full_body_reference": "assets/characters/xia-weicheng/turnaround-v1.png"
+        "preferred_full_body_reference": "assets/characters/xia-weicheng/turnaround-v1.png",
+        "preferred_identity_reference": "assets/characters/xia-weicheng/identity-square-v1.png"
       }
     },
     {
@@ -491,6 +610,18 @@
             "detail_policy": "原图中不可见的背部、侧面等细节为生成补全；脸部识别点、配件冲突优先依据原图。",
             "repair_prompt_path": "assets/characters/zhan-shaoyuan/turnaround-v1.repair.prompt.txt",
             "detail_note": "已修正朝画面左的侧面视图误增的眼下痣；痣仅保留在原图对应的解剖右侧脸颊。"
+          },
+          {
+            "path": "assets/characters/zhan-shaoyuan/identity-square-v1.png",
+            "role": "standardized_identity_reference",
+            "source": "assets/characters/zhan-shaoyuan/詹绍源.jpg",
+            "created_at": "2026-10-27",
+            "generation_tool": "image_gen",
+            "prompt_path": "assets/characters/zhan-shaoyuan/identity-square-v1.prompt.txt",
+            "background": "white",
+            "aspect_ratio": "1:1",
+            "framing": "full_body",
+            "mapping_basis": "按用户要求将已绑定原图标准化为白底无水印方图，保留服装、姿势、配件与道具；原文件另行保留。"
           }
         ],
         "appearance": "用户指定为水豚形象的人脸与啮齿类混合拟人角色：保留参考中接近真人的眼睛和嘴部、暖棕色毛脸和小圆耳、深棕鼻及细胡须，黑色短碎发，画面左侧眼下有小痣，运动型肤色人类四肢。",
@@ -504,7 +635,8 @@
         "adaptation_rule": "无服装要求时以参考为默认；用户指定服装或活动时可调整服装。手持物、香烟、背景、姿势和表情不是每张图必须出现的身份特征；眼镜与发型默认保留。",
         "reference_height_cm": 175,
         "height_usage": "用户指定的多人场景参考身高，按脚底至头顶衡量，不含鹿角等突出附属物；不是现实身高断言。相近镜头距离和同一地面上按比例安排，远近透视另行处理。",
-        "preferred_full_body_reference": "assets/characters/zhan-shaoyuan/turnaround-v1.png"
+        "preferred_full_body_reference": "assets/characters/zhan-shaoyuan/turnaround-v1.png",
+        "preferred_identity_reference": "assets/characters/zhan-shaoyuan/identity-square-v1.png"
       }
     },
     {
@@ -519,7 +651,8 @@
         "哆啦A梦",
         "哆啦B梦",
         "B梦",
-        "健叔"
+        "健叔",
+        "臭记"
       ],
       "visual": {
         "status": "bound",
@@ -549,6 +682,18 @@
             "framing": "full_body",
             "mapping_basis": "从该人物原图生成的白底全身4视图，同一角色的角度参考，不代表四个人。",
             "detail_policy": "原图中不可见的背部、侧面等细节为生成补全；脸部识别点、配件冲突优先依据原图。"
+          },
+          {
+            "path": "assets/characters/li-jianyu/identity-square-v1.png",
+            "role": "standardized_identity_reference",
+            "source": "assets/characters/li-jianyu/黎健毓.jpg",
+            "created_at": "2026-10-27",
+            "generation_tool": "image_gen",
+            "prompt_path": "assets/characters/li-jianyu/identity-square-v1.prompt.txt",
+            "background": "white",
+            "aspect_ratio": "1:1",
+            "framing": "full_body",
+            "mapping_basis": "按用户要求将已绑定原图标准化为白底无水印方图，保留服装、姿势、配件与道具；原文件另行保留。"
           }
         ],
         "appearance": "哆啦A梦风格的蓝白色圆润机器猫拟人角色：蓝色圆头与手臂、白色大脸和口鼻区、红色球形鼻子、黑色横向胡须、竖椭圆黑眼，浓密蓬松的黑色中分波浪卷发，银色细金属框大眼镜，红色颈圈配金色铃铛。白色圆手和宽圆白脚，整体矮壮圆润。",
@@ -563,17 +708,94 @@
         "adaptation_rule": "按用户要求调整服装和场景，黑卷发、银框眼镜、蓝白圆脸、红鼻与铃铛是默认识别特征。背包可依场景增减；画面中的生成平台水印不作为角色特征。",
         "reference_height_cm": 160,
         "height_usage": "用户指定的多人场景参考身高，按脚底至头顶衡量，不含鹿角等突出附属物；不是现实身高断言。相近镜头距离和同一地面上按比例安排，远近透视另行处理。",
-        "preferred_full_body_reference": "assets/characters/li-jianyu/turnaround-v1.png"
+        "preferred_full_body_reference": "assets/characters/li-jianyu/turnaround-v1.png",
+        "preferred_identity_reference": "assets/characters/li-jianyu/identity-square-v1.png"
+      }
+    },
+    {
+      "id": "dai-er",
+      "canonical_name": "戴而",
+      "aliases": [
+        "戴尔",
+        "dell",
+        "臭而",
+        "戴鸡巴",
+        "臭鹅"
+      ],
+      "readme_aliases": [
+        "戴尔",
+        "dell",
+        "臭而",
+        "臭鹅"
+      ],
+      "visual": {
+        "status": "bound",
+        "references": [
+          {
+            "path": "assets/characters/dai-er/戴而.png",
+            "role": "original_identity_reference",
+            "source": "用户在2026-10-27确认的白鹅角色预览v5",
+            "mapping_basis": "用户明确将本次定稿绑定为戴而，并提供本名、别名与185cm参考身高；AI生成角色定稿。",
+            "created_at": "2026-10-27",
+            "generation_tool": "image_gen"
+          },
+          {
+            "path": "assets/characters/dai-er/turnaround-v1.png",
+            "role": "standardized_multiview_reference",
+            "source": "assets/characters/dai-er/戴而.png",
+            "created_at": "2026-10-27",
+            "generation_tool": "image_gen",
+            "prompt_path": "assets/characters/dai-er/turnaround-v1.prompt.txt",
+            "layout": "single_row_four_views",
+            "view_order": [
+              "front",
+              "profile_facing_screen_left",
+              "profile_facing_screen_right",
+              "back"
+            ],
+            "background": "white",
+            "framing": "full_body",
+            "mapping_basis": "从用户确认的定稿生成白底全身4视图，四个身体代表同一角色的四个角度。",
+            "detail_policy": "侧背面为生成补全；标准板保留右手书册、左腰皮袋与骰子挂饰，远侧道具按视角自然遮挡，细节优先参考原始定稿。",
+            "repair_prompt_path": "assets/characters/dai-er/turnaround-v1.repair.prompt.txt"
+          },
+          {
+            "path": "assets/characters/dai-er/identity-square-v1.png",
+            "role": "standardized_identity_reference",
+            "source": "assets/characters/dai-er/戴而.png",
+            "created_at": "2026-10-27",
+            "generation_tool": "image_gen",
+            "prompt_path": "assets/characters/dai-er/identity-square-v1.prompt.txt",
+            "background": "white",
+            "aspect_ratio": "1:1",
+            "framing": "full_body",
+            "mapping_basis": "按用户要求将已绑定原图标准化为白底无水印方图，保留服装、姿势、配件与道具；原文件另行保留。"
+          }
+        ],
+        "appearance": "男性白鹅型拟人角色，白色细密羽毛、橙色鹅喙与宽阔橙色鹅蹼，修长鹅颈，细长微眯棕色眼睛和浓眉，蓬松后梳黑发，细黑色波浪发箍，银白色小圆耳钉。体型微胖结实，有自然男性胸肌与臂肌。",
+        "identity_invariants": [
+          "白鹅头、橙色鹅喙、白羽长颈及白色羽毛翼手，不换成真人脸",
+          "蓬松后梳黑发、细黑色波浪发箍与银白色小圆耳钉",
+          "微胖结实男性体型，适度胸肌与臂肌，无女性乳房或乳沟",
+          "裸露橙色宽鹅蹼，默认无鞋袜，不变成人脚或鸡爪"
+        ],
+        "default_outfit_and_props": "酒红色圆领短袖、深炭灰直筒长裤，赤足鹅蹼；右手可持棕色硬皮面书册，封面有金色二十面骰子线描图案；左腰小棕色束口皮袋与多面骰子挂饰。",
+        "adaptation_rule": "默认造型保留右手书册、左腰皮袋与骰子挂饰，标准化时不得自动移除。用户明确要求换装或活动确需腾出双手时再按场景调整。后梳黑发、发箍、耳钉、白鹅形态、微胖男性体型和裸露鹅蹼默认保留，未明确要求时不穿鞋。",
+        "reference_height_cm": 185,
+        "height_usage": "用户于2026-10-27指定的角色构图参考身高，按脚底至头顶衡量，不是现实身高断言；多人场景结合透视与姿态安排。",
+        "preferred_full_body_reference": "assets/characters/dai-er/turnaround-v1.png",
+        "preferred_identity_reference": "assets/characters/dai-er/identity-square-v1.png"
       }
     }
   ],
   "reference_binding_date": "2026-09-24",
-  "standardized_reference_date": "2026-10-20",
+  "standardized_reference_date": "2026-10-27",
   "group_scale_policy": {
     "height_unit": "cm",
     "measurement": "sole_to_head_crown_excluding_antlers",
-    "source": "用户在2026-10-20指定的角色参考身高",
-    "same_depth_ratio": "180:175:160",
+    "source": "原10位成员身高由用户在2026-10-20指定；戴而185cm于2026-10-27补充",
+    "same_depth_ratio": "185:180:175:160",
     "reference_sheet_scale": "每张单人参考板独立构图，不用板上的像素高度比较不同人物；多人图按reference_height_cm和透视重新安排。"
-  }
+  },
+  "standardized_identity_date": "2026-10-27"
 }

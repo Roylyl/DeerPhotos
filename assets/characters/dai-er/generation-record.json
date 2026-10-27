@@ -1,0 +1,17 @@
+{
+  "request": "将白鹅定稿标准化并加入戴而，参考身高185cm；后续纠正要求保留书册。",
+  "person": {
+    "id": "dai-er",
+    "canonical_name": "戴而",
+    "reference_height_cm": 185
+  },
+  "reference": "戴而.png",
+  "output": "turnaround-v1.png",
+  "prompt": "turnaround-v1.prompt.txt",
+  "repair_prompt": "turnaround-v1.repair.prompt.txt",
+  "version": "3.0.0",
+  "generated_at": "2026-10-27",
+  "source": "AI生成",
+  "tool": "image_gen",
+  "notes": "原始定稿保留；四视图依次正面、朝左、朝右、背面。标准化保留书册、腰袋、骰子挂饰、发箍、耳钉、裸露鹅蹼，侧背面为生成补全。"
+}

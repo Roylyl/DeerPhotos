@@ -1,6 +1,6 @@
 # 多角度参考与身高
 
-每位角色都有1张白底全身4视图，共10张参考板、40个角度视图。全部使用内置image_gen从原始角色图生成，实际提示词保存在图片旁的`turnaround-v1.prompt.txt`。
+每位角色都有1张白底全身4视图，共11张参考板、44个角度视图。全部使用内置image_gen从原始角色图生成，实际提示词保存在图片旁的`turnaround-v1.prompt.txt`。
 
 每张图从左到右依次为正面、朝画面左的侧面、朝画面右的侧面、背面。四个身体是同一个角色的四个角度，不是四人合照。
 
@@ -8,11 +8,12 @@
 
 | 参考身高 | 角色 |
 | --- | --- |
+| 185cm | 戴而 |
 | 180cm | 魏子奇、夏炜城 |
 | 175cm | 李彦臻、罗宇伦、彭鹏、唐博釜、唐胤鑫、詹绍源 |
 | 160cm | 涂腾辉、黎健毓 |
 
-这些是用户指定的场景构图基准。相近镜头距离、同一地面上按180:175:160安排；鹿角等突出附属物不计入身高。保持胖瘦和肢体比例，远近、坐姿、台阶等造成的视觉高度变化按实际场景处理。
+这些是用户指定的场景构图基准。相近镜头距离、同一地面上按185:180:175:160安排；鹿角等突出附属物不计入身高。保持胖瘦和肢体比例，远近、坐姿、台阶等造成的视觉高度变化按实际场景处理。
 
 ## 使用方式
 
@@ -54,9 +55,9 @@
 
 ### 涂腾辉·160cm
 
-![涂腾辉的白底全身4视图](../assets/characters/tu-tenghui/turnaround-v1.png)
+![涂腾辉的白底全身4视图](../assets/characters/tu-tenghui/turnaround-v2.png)
 
-[原始参考](../assets/characters/tu-tenghui/涂腾辉.jpg) · [本次生成提示词](../assets/characters/tu-tenghui/turnaround-v1.prompt.txt)
+[原始参考](../assets/characters/tu-tenghui/涂腾辉.jpg) · [本次生成提示词](../assets/characters/tu-tenghui/turnaround-v2.prompt.txt)
 
 ### 魏子奇·180cm
 
@@ -81,3 +82,16 @@
 ![黎健毓的白底全身4视图](../assets/characters/li-jianyu/turnaround-v1.png)
 
 [原始参考](../assets/characters/li-jianyu/黎健毓.jpg) · [本次生成提示词](../assets/characters/li-jianyu/turnaround-v1.prompt.txt)
+
+### 戴而·185cm
+
+![戴而的白底全身4视图](../assets/characters/dai-er/turnaround-v1.png)
+
+[原始定稿](../assets/characters/dai-er/戴而.png) · [生成提示词](../assets/characters/dai-er/turnaround-v1.prompt.txt) · [视角修正提示词](../assets/characters/dai-er/turnaround-v1.repair.prompt.txt)
+
+保留酒红色短袖、深灰长裤、波浪发箍、小圆耳钉和裸露橙色鹅蹼。体型为微胖结实的男性，有适量胸肌与臂肌。按用户要求，四视图保留右手书册、左腰皮袋和骰子挂饰，不因标准化移除；远侧道具可被身体自然遮挡。侧背面为生成补全，细节冲突时优先遵从原始定稿。
+## 单人白底标准图
+
+每位角色另有identity-square-v1.png，统一为1:1白底无水印单人图；使用preferred_identity_reference读取。原始图保留，标准图不覆盖原始身份来源。单图各自充分展示，多人图按185:180:175:160安排，不按不同文件的像素高度比较人物。
+
+涂腾辉已按用户要求补成全身，并参考彭鹏的结实程度调整体型；最新四视图为turnaround-v2.png，旧版保留。
